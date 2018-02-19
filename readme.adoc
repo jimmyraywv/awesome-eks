@@ -44,7 +44,8 @@ run without a stitch.
 * 
 
 === Videos
-* 
+* https://www.youtube.com/watch?v=WHTejF3W0s4[AWS re:Invent 2017: Introducing Amazon EKS (CON215)]
+* https://www.youtube.com/watch?v=vrYLrx-a_Wg[AWS re:Invent 2017: Deep Dive into Amazon EKS (CON409)]
 
 === Twitter Accounts
 * 
