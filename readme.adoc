@@ -1,0 +1,51 @@
+= Awesome Elastic Container Service for Kubernetes (EKS)
+v0.0.1, 2018-02-19
+:toc: right
+imagesdir: images/
+
+
+image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[alt=Awesome]
+
+
+A curated list for awesome EKS resources
+Inspired by https://github.com/sindresorhus/awesome[@sindresorhus' awesome]
+
+== What is EKS
+
+Elastic Container Service for Kubernetes (EKS) is Amazon Web Services' (AWS)
+managed Kubernetes cluster. It allows you to simply create a managed `etcd` and
+master infrastructure connecting into your own AWS account for the worker nodes.
+
+== Justification
+
+Although @ramitsurana has already done a great job at curating a thorough list
+of https://github.com/ramitsurana/awesome-kubernetes[Kubernetes Awesome]. EKS
+includes some subtle differences since you cannot run anything on top of the
+managed masters. This means things like the dashboard need to be customized to
+run without a stitch.
+
+== Lists
+=== Getting Started
+* https://aws.amazon.com/documentation/eks/[AWS Documentation]
+
+=== Networking
+* 
+
+=== Service Mesh
+* 
+
+=== CI/CD
+* 
+
+=== Security
+* 
+
+=== Service Discovery
+* 
+
+=== Videos
+* 
+
+=== Twitter Accounts
+* 
+
