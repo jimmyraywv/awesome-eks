@@ -5,26 +5,26 @@ export API_ENDPOINT=$(kubectl config view | grep server | cut -f 2- -d ":" | tr 
 envsubst < ./manifests/kube-dashboard-secure.yaml > ./manifests/eks-dashboard.yaml
 ```
 
-Note: **envsubst** is part of the gettext utilities
+Note: **envsubst** is part of the gettext utilities.
 
 ```
 kubectl create -f ./manifests/eks-dashbaord.yaml
 ```
 
-Create a service account and secret to use to login to the dashboard
+Create a service account and secret to use to login to the dashboard.
 
 ```
 kubectl create serviceaccount admin-user -n kube-system
 kubectl create clusterrolebinding admin-user-role-binding --clusterrole=cluster-admin --serviceaccount=kube-system:admin-user
 ```
 
-Get the token associated with the service account
+Get the token associated with the service account.
 
 ```
 kubectl get secrets --all-namespaces
 ```
 
-Replace <?????> with the random string of characters that get appended to the secret name
+Replace <?????> with the random string of characters that get appended to the secret name.
 
 ```
 kubectl get secret admin-user-token-<?????> -n kube-system --template='{{.data.token}}'
