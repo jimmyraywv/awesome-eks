@@ -28,6 +28,9 @@ run without a stitch.
 === Getting Started
 * https://aws.amazon.com/documentation/eks/[AWS Documentation]
 
+=== Kubernetes Dashboard
+*
+
 === Networking
 * 
 
