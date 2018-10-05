@@ -1,11 +1,10 @@
 = Awesome Elastic Container Service for Kubernetes (EKS)
-v0.0.1, 2018-02-19
-:toc: right
-imagesdir: images/
+:toc:
+:toc-placement: manual
 
+image::images/eks-logo.png[]
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[alt=Awesome]
-
 
 A curated list for awesome EKS resources
 Inspired by https://github.com/sindresorhus/awesome[@sindresorhus' awesome]
@@ -18,38 +17,64 @@ master infrastructure connecting into your AWS account for the worker nodes.
 
 == Justification
 
-@ramitsurana has already done a great job at curating a thorough list of 
-https://github.com/ramitsurana/awesome-kubernetes[Kubernetes Awesome] with EKS 
+@ramitsurana has already done a great job at curating a thorough list of
+https://github.com/ramitsurana/awesome-kubernetes[Awesome Kubernetes] with EKS
 it includes some subtle differences since you cannot run anything on top of the
-managed masters. This means things like the dashboard need to be customized to 
+managed masters. This means things like the dashboard need to be customized to
 run without a stitch.
 
 == Lists
+
+toc::[]
+
 === Getting Started
 * https://aws.amazon.com/documentation/eks/[AWS Documentation]
 
+=== Operations
+* https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[eksctl: Amazon EKS Cluster with One Command]
+* https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html[Terraform Getting Started with AWS EKS]
+
 === Kubernetes Dashboard
-*
+* https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html[Deploy the Kubernetes Web UI (Dashboard)]
 
 === Networking
-* 
+* https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[Amazon EKS Networking]
+* https://aws.amazon.com/blogs/opensource/cni-metrics-helper/[CNI Metrics Helper]
+* https://aws.amazon.com/blogs/opensource/vpc-cni-plugin-v1-1-available/[Amazon VPC CNI Plugin Version 1.1 Now Available]
+
+=== AutoScaling
+* https://aws.amazon.com/blogs/opensource/horizontal-pod-autoscaling-eks/[Introducing Horizontal Pod Autoscaling for Amazon EKS]
 
 === Service Mesh
-* 
+* https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/[Getting Started with Istio on Amazon EKS]
 
 === CI/CD
-* 
+* https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/[Git Push to Deploy Your App on EKS]
+* https://go.cloudbees.com/docs/cloudbees-documentation/install-cje/eks-install/[CloudBees Jenkins Enterprise on Amazon EKS]
 
 === Security
-* 
+* https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
 
 === Service Discovery
-* 
+* https://aws.amazon.com/blogs/opensource/unified-service-discovery-ecs-kubernetes/[Unified Service Discovery with Amazon ECS and Kubernetes]
+
+=== Functions as a Service
+* https://aws.amazon.com/blogs/opensource/deploy-openfaas-aws-eks/[Deploy OpenFaaS on AWS EKS]
+
+=== Machine Learning
+* https://aws.amazon.com/blogs/opensource/kubeflow-amazon-eks/[Kubeflow on Amazon EKS]
+* https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
+
+=== Operators
+* https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
 
 === Videos
 * https://www.youtube.com/watch?v=WHTejF3W0s4[AWS re:Invent 2017: Introducing Amazon EKS (CON215)]
 * https://www.youtube.com/watch?v=vrYLrx-a_Wg[AWS re:Invent 2017: Deep Dive into Amazon EKS (CON409)]
 
 === Twitter Accounts
-* 
+*
 
+== Contributors
+
+* @christopherhein
