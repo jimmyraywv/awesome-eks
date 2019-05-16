@@ -57,6 +57,7 @@ toc::[]
 
 === Security
 * https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
+* https://aws.amazon.com/blogs/opensource/using-open-policy-agent-on-amazon-eks/[Using Open Policy Agent on Amazon EKS] 
 
 === Service Discovery
 * https://aws.amazon.com/blogs/opensource/unified-service-discovery-ecs-kubernetes/[Unified Service Discovery with Amazon ECS and Kubernetes]
@@ -69,6 +70,7 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/kubeflow-amazon-eks/[Kubeflow on Amazon EKS]
 * https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
 * https://aws.amazon.com/about-aws/whats-new/2019/05/-amazon-eks-releases-deep-learning-benchmarking-utility-/[Amazon EKS Releases Deep Learning Benchmarking Utility]
+* https://aws.amazon.com/blogs/opensource/optimizing-distributed-deep-learning-performance-amazon-eks/[Best Practices for Optimizing Distributed Deep Learning Performance on Amazon EKS]
 
 === Operators
 * https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
