@@ -41,6 +41,7 @@ toc::[]
 * https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[Amazon EKS Networking]
 * https://aws.amazon.com/blogs/opensource/cni-metrics-helper/[CNI Metrics Helper]
 * https://github.com/aws/amazon-vpc-cni-k8s/releases[Latest version of the Amazon VPC CNI]
+* https://medium.com/@jeremy.i.cowan/running-calico-on-eks-f3e52ea41271[Running Calico on EKS]
 
 === AutoScaling
 * https://aws.amazon.com/blogs/opensource/horizontal-pod-autoscaling-eks/[Introducing Horizontal Pod Autoscaling for Amazon EKS]
