@@ -72,6 +72,9 @@ toc::[]
 * https://aws.amazon.com/about-aws/whats-new/2019/05/-amazon-eks-releases-deep-learning-benchmarking-utility-/[Amazon EKS Releases Deep Learning Benchmarking Utility]
 * https://aws.amazon.com/blogs/opensource/optimizing-distributed-deep-learning-performance-amazon-eks/[Best Practices for Optimizing Distributed Deep Learning Performance on Amazon EKS]
 
+=== Logging and monitoring
+* https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights.html[Introducing Amazon CloudWatch Container Insights for Amazon EKS and Kubernetes - Now in Preview]
+
 === Operators
 * https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
 
