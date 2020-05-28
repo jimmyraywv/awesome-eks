@@ -51,6 +51,7 @@ toc::[]
 === CI/CD
 * https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/[Git Push to Deploy Your App on EKS]
 * https://go.cloudbees.com/docs/cloudbees-documentation/install-cje/eks-install/[CloudBees Jenkins Enterprise on Amazon EKS]
+* https://semaphoreci.com/resources/cicd-docker-kubernetes[CI/CD with Docker ad Kubernetes] (https://github.com/semaphoreci/book-cicd-docker-kubernetes[open source] book)
 
 === Security
 * https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
