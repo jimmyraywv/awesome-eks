@@ -76,6 +76,11 @@ toc::[]
 
 * https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
 
+=== Solutions/Quickstarts
+
+* [Amazon EKS Blueprints for Terraform](https://github.com/aws-ia/terraform-aws-eks-blueprints)
+* [Amazon EKS Blueprints for CDK](https://github.com/aws-quickstart/cdk-eks-blueprints)
+
 === Videos
 
 * https://www.youtube.com/watch?v=WHTejF3W0s4[AWS re:Invent 2017: Introducing Amazon EKS (CON215)]
