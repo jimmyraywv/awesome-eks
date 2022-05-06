@@ -27,6 +27,7 @@ toc::[]
 
 === Getting Started
 * https://docs.aws.amazon.com/eks/index.html[AWS Documentation]
+* https://eks.news[EKS News]
 
 === Operations
 * https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[eksctl: Amazon EKS Cluster with One Command]
