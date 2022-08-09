@@ -59,6 +59,7 @@ toc::[]
 === Security
 
 * https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
+* https://blog.jimmyray.io/kubernetes-workload-identity-with-aws-sdk-for-go-v2-927d2f258057[Workload Identity with IRSA and AWS SDK for Go v2]
 
 === Service Discovery
 
